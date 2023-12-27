@@ -8,59 +8,70 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:background="@color/pink"
+        android:background="#BF9E86"
         android:text="Library Book Data"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textAlignment="center"   android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name" />
+        android:text="Name"
+        android:textColor="#000000" />
     <EditText
         android:id="@+id/edt_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="1" />
+        android:lines="1"
+        android:background="#ECEAD3" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Writer" />
+        android:text="Writer"
+        android:textColor="#000000" />
     <EditText
         android:id="@+id/edt_writer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="1" />
+        android:lines="1"
+        android:background="#ECEAD3" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Year" />
+        android:text="Year"
+        android:textColor="#000000" />
     <EditText
         android:id="@+id/edt_year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:lines="1" />
+        android:lines="1"
+        android:background="#ECEAD3"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Summary" />
+        android:text="Summary"
+        android:textColor="#000000" />
     <EditText
         android:id="@+id/edt_summary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="5" />
+        android:lines="5"
+        android:background="#ECEAD3" />
 
     <Button
         android:id="@+id/btn_update"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Update" />
+        android:layout_marginTop="20dp"        android:layout_height="wrap_content"
+        android:backgroundTint="#A7B69E"
+    android:text="Update"
+        android:textStyle="bold"    android:textColor="#000000" />
 
 </LinearLayout>

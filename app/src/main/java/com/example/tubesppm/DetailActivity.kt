@@ -51,7 +51,7 @@ class DetailActivity : AppCompatActivity() {
                         binding.tvBookSummary.text = list.bookSummary
                     } else {
                         Toast.makeText(this@DetailActivity, "Fail fetching from database response is not 200", Toast.LENGTH_LONG).show()
-                        Log.d("GET COUNTRY ITEMS FAIL ${response.code()}", response.body().toString())
+                        Log.d("GET BOOK ITEMS FAIL ${response.code()}", response.body().toString())
                     }
                 }
 

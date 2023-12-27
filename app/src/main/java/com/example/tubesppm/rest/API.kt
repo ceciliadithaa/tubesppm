@@ -6,11 +6,11 @@ import retrofit2.http.*
 
 interface API {
     @GET("read.php")
-    fun getBooks():Call<ArrayList<BookItem>>
+    fun getBooks(): Call<ArrayList<BookItem>>
 
     @GET("detail.php")
     fun getBookDetail(
-        @Query("bookId") countryId: String?
+        @Query("bookId") bookId: String?
     ):Call<BookDetail>
 
     @FormUrlEncoded
